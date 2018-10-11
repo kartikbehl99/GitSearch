@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <script src="repoPage.js"></script>
+    <title>Repository</title>
+</head>
+<body>
+<div style="padding: 100px">
+    <span id="display-repo-name"></span>
+    <div style="padding: 10px; position: relative; left: 1550px; display: inline">
+        <button type="button" class="btn btn-primary" id="download-button">Download</button>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="code-tab" data-toggle="tab" href="#Code" role="tab" aria-controls="home" aria-selected="true">Code</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" id="issues-tab" data-toggle="tab" href="#Issues" role="tab" aria-controls="profile" aria-selected="false">Issues</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pull-tab" data-toggle="tab" href="#Pull-requests" role="tab" aria-controls="contact" aria-selected="false">Pull requests</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="Code" role="tabpanel" aria-labelledby="home-tab">
+            <ul class="list-group list-group-flush" id="code-list">
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="Issues" role="tabpanel" aria-labelledby="profile-tab">
+            <ul class="list-group list-group-flush" id="issues-list">
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="Pull-requests" role="tabpanel" aria-labelledby="contact-tab">
+            <ul class="list-group list-group-flush" id="pull-list">
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

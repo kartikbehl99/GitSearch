@@ -1,0 +1,27 @@
+#logo {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: 2vh;
+}
+.input-group {
+    padding-left: 700px;
+    padding-right: 700px;
+}
+#search {
+    position: relative;
+    top: 50px;
+}
+#search-button {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 130px;
+}
+#repo-list {
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    top: 100px;
+}

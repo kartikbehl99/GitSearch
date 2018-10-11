@@ -1,0 +1,19 @@
+{
+  "name": "cb_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "curlrequest": "^1.0.1",
+    "download": "^7.1.0",
+    "download-file-with-progressbar": "^1.2.3",
+    "download-git-repo": "^1.0.2",
+    "express": "^4.16.3"
+  }
+}
